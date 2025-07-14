@@ -14,9 +14,18 @@ However, for the sake of this assignment, I'm just going to approximate it with 
     font-family: monospace
 }
 
-p {
+ul {
+    list-style-type: none;
+}
+
+li {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+input {
+    margin-left: 10px;
+    width: 100px;
 }
 
 .depth0 {
