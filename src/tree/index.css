@@ -1,6 +1,36 @@
+/* 
+Because &nbsp is an html entity, it's sizing depends on the font, so replicating it using CSS will only be an approximation unless we want to try something like this:
+
+p::before {
+    content: "\00a0";
+}
+
+However, for the sake of this assignment, I'm just going to approximate it with margins
+*/
 .tree {
     background-color: #efefef;
     height: 100%;
     padding: 10px;
     font-family: monospace
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.depth0 {
+    margin-left: 0px;
+}
+
+.depth1 {
+    margin-left: 50px;
+}
+
+.depth2 {
+    margin-left: 100px;
+}
+
+.depth3 {
+    margin-left: 150px;
 }
