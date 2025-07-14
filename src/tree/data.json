@@ -1,1 +1,38 @@
-{}
+{
+    "id": 1,
+    "name": "mammals",
+    "children": [
+        {
+            "id": 2,
+            "name": "cheetah",
+            "children": []
+        },
+        {
+            "id": 3,
+            "name": "bear",
+            "children": [
+                {
+                    "id": 4,
+                    "name": "lion",
+                    "children": []
+                },
+                {
+                    "id": 5,
+                    "name": "dog",
+                    "children": [
+                        {
+                            "id": 6,
+                            "name": "elephant",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "ape",
+            "children": []
+        }
+    ]
+}
